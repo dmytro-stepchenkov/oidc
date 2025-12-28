@@ -50,6 +50,7 @@ Terraform S3 backend requires the bucket to exist before init.
 Terragrunt can create the backend automatically from your remote_state configuration.
 Run bootstrap once:
 ```terragrunt backend bootstrap```
+
 If you have multiple Terragrunt units under the current directory, use:
 ```terragrunt backend bootstrap --all```
 
